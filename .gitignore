@@ -1,0 +1,36 @@
+# .gitignore File for Spring Boot Project
+
+Here's a well-structured .gitignore file for your Spring Boot project. This file will help you exclude unnecessary files and directories from your Git repository.
+
+```plaintext
+# IDE-specific files
+.idea/
+.eclipse/
+.classpath
+.project
+
+# Build files
+target/
+build/
+
+# Dependency directories
+bower_components/
+node_modules/
+
+# Environment files
+.env
+application.properties
+application.yml
+
+# Git-related
+.git/
+.gitignore
+
+# Logs and temporary files
+*.log
+*.tmp
+tmp/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
